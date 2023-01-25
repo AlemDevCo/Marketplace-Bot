@@ -4,7 +4,7 @@
 #### **Triggers**
 ---
 ##### /post
-```python
+```
 $resetUserVar[SelectMenu]
 $newModal[modal;Post Info]
 $addTextInput[modalInput1;paragraph;Post title;3;35;yes;;Post title]
@@ -15,7 +15,7 @@ $addTextInput[modalInput5;paragraph;Email;2;50;no;;name@domain.tld]
 ```
 
 ##### $onInteraction[modal]
-```python
+```
 $nomention
 $ephemeral
 
@@ -41,7 +41,7 @@ Email: $input[modalInput5]\]
 ```
 
 ##### $onInteraction
-```python
+```
 $if[$customID==continue]
 $ephemeral
 $nomention
@@ -140,3 +140,5 @@ $endif
 ---
 #### **Variables**
 ---
+##### category
+No value.

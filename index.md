@@ -142,3 +142,20 @@ $endif
 ---
 ##### category
 No value.
+
+##### SelectMenu
+```
+$newSelectMenu[categoryMenu;1;1;Category]
+$addSelectMenuOption[categoryMenu;Building;first-option;It will be sent to that category.]
+$addSelectMenuOption[categoryMenu;Scripting;second-option;It will be sent to that category.]
+$addSelectMenuOption[categoryMenu;GFX & 2D Art;third-option;It will be sent to that category.]
+$addSelectMenuOption[categoryMenu;Video Editing;fourth-option;It will be sent to that category.]
+$addSelectMenuOption[categoryMenu;Composor;fifth-option;It will be sent to that category.]
+$addSelectMenuOption[categoryMenu;UI (Interface);sixth-option;It will be sent to that category.]
+$addSelectMenuOption[categoryMenu;Modeler;seventh-option;It will be sent to that category.]
+$addSelectMenuOption[categoryMenu;Other;eighth-option;It will be sent to that category.]
+$newSelectMenu[channelMenu;1;1;Channel]
+$addSelectMenuOption[channelMenu;Hiring;hiring-option;Hiring a developer.]
+$addSelectMenuOption[channelMenu;Hireable;hireable-option;Being hired as a developer.]
+$addSelectMenuOption[channelMenu;Selling;selling-option;Selling stuff.]
+```
